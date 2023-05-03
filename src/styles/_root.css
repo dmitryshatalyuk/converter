@@ -1,0 +1,23 @@
+:root {
+  /* Width */
+  --header-content-width: 1200px;
+  --content-width: 1000px;
+
+  /* Colors */
+  --bg: #ffffff;
+  --bg-accent: #f6f7ff;
+  --title-color: #1f1e25;
+  --text-color: #707c87;
+  --accent: #2c36f2;
+  --accent-hover: #545CF4;
+  --border-color: #c1c2ca;
+
+  /* Paddings */
+  --btn-default-padding: 18px 36px;
+  --box-default-padding: 54px 48px;
+  --content-wrapper-padding: 0 20px;
+
+  /* Borders */
+  --default-border-rad: 4px;
+  --default-input-border: 1px solid var(--border-color);
+}

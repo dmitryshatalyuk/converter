@@ -1,0 +1,22 @@
+.convert {
+  padding: 120px 0;
+}
+
+.convert-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.convert-image {
+    max-width: 436px;
+}
+
+.convert-title {
+    margin-bottom: 14px;
+}
+
+.convert-text {
+    max-width: 379px;
+    margin-bottom: 28px;
+}

@@ -1,0 +1,55 @@
+/* @import "../../styles/_root.css"; */
+
+.header {
+  padding: 34px 0;
+  background-color: var(--bg-accent);
+  color: var(--title-color);
+}
+
+.header-wrapper {
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.logo img {
+  max-width: 23px;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.navigation .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 38px;
+  padding: 0;
+  margin-right: 256px;
+}
+
+.nav-link {
+  color: var(--text-color);
+}
+
+.nav-link,
+.nav__login-link {
+  transition: color 0.2s ease-in-out;
+}
+
+.nav__login-link {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
